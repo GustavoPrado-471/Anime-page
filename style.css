@@ -1,0 +1,101 @@
+body{ 
+    font-family: 'Itim', cursive;
+    margin: 0em;
+    color: rgba(11, 133, 133, 0.685);
+    background-color: rgb(189, 189, 189);
+    
+}
+ h1{ 
+    font-family: 'Itim', cursive;
+    color: rgba(40, 240, 240, 0.685);
+ }
+
+ h4{ 
+    font-family: 'Dancing Script', cursive;
+    color: black;
+ }
+
+ h5{ 
+    font-family: 'Itim', cursive;
+    color: rgba(0, 0, 0, 0.685);
+ }
+ p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.904);
+ }
+ .texto{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.904);
+ }
+
+ .cover{ 
+     height: 300px;
+     background-image:url(img3_1.jpg);
+     background-size: cover;
+     background-color: rgba(0, 0, 0, 0.4);
+     background-blend-mode: darken;
+ }
+
+
+.card{ 
+    border: 0 !important ;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+    background-color: silver;
+}   
+
+.card-title{ 
+    min-height: 3rem;
+    text-align: center;
+
+}
+.card-text{ 
+    min-height: 8rem;
+    text-align: center;
+}
+
+.product-stripe{ 
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.stripe-container{ 
+    display: flex;
+}
+
+.stripe-container .card{ 
+    width: 300px;
+    min-height: 3rem;
+    flex-shrink: 0;
+    margin-right: 2rem;
+}
+
+.resposive-iframe{ 
+    position: relative;
+    padding-top:56.25% ;
+}
+
+.resposive-iframe iframe{ 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container{ 
+    text-align: center;
+    flex: wrap;
+}
+
+.nav-link{ 
+    color:rgb(255, 255, 255) /*Vamos a cambiar el color del texto*/ 
+    
+}
+
+.videoClips{ 
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
