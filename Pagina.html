@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> Pagina web desarrollo web 3</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> <!--Compatibilidad con los exploradores de Internet Explore-->
+        <meta name="viewport" content="width= device-width, initial-scale=1"> <!--Esto es para una especie de pagina responsiva -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"  
+         rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
+         crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css"/> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+      <header> 
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">AnimeOnline</a>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#moments">Momentos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cardHover.html">Acerca de</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+
+        <div class="cover d-flex justify-content-center align-items-center flex-column "> 
+          <h1>Anime Online</h1>
+          <p> Lo mejor del Anime en la Web</p>
+          <a href="pag2.html" class="btn btn-outline-secondary">Conoce más</a>
+        </div>
+      </header>
+
+      <section>
+        <!--Imagen 1-->
+        <div class="container mt-5 mb-5">
+          <div class="row justify-content-center"> 
+            <!--Contedor de imagen 1-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card" style="background-color: rgb(170, 180, 180);">
+                <!--Tratemos de agregar las animaciones en este lado-->
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <img src="BokuNoHero.png" class="card-img-top" alt="One piece image">
+                  <div class="card-body">
+                    <h5 class="card-title">Boku no hero</h5>
+                    <p class="card-text">Anime recomendation, una escuela de super heros</p>
+                    <a href="https://www.crunchyroll.com/es/my-hero-academia" class="btn btn-primary">Dale</a>
+                  </div>
+              </div>
+            </div>
+              <!--Imagen 2-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card" style="background-color: rgb(170, 180, 180);">
+                <img src="OnePiece.png" class="card-img-top" alt="One piece image">
+                  <div class="card-body">
+                    <h5 class="card-title">One Piece</h5>
+                    <p class="card-text">Anime recomendation, el mar pirata nos espera</p>
+                    <a href="https://www.crunchyroll.com/es/one-piece" class="btn btn-primary">Vamos</a>
+                  </div>
+              </div>
+            </div>
+
+              <!--Imagen 3-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card"style="background-color: rgb(170, 180, 180);">
+                <img src="SNK.png" class="card-img-top" alt="Portada de SNK">
+                  <div class="card-body">
+                    <h5 class="card-title">Shingeki no Kyojin</h5> 
+                    <p class="card-text" >Anime recomendation, tittanes y un secreto de mas de 1 siglo</p>
+                    <a href="https://www.crunchyroll.com/es/attack-on-titan" class="btn btn-primary">Opaa</a>
+                  </div>
+              </div>
+            </div>
+            
+             <!--Imagen 4-->
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+              <div class="card"style="background-color: rgb(170, 180, 180);">
+                <img src="Girl.png" class="card-img-top" alt="Portada de SNK">
+                  <div class="card-body">
+                    <h5 class="card-title">Kanojo no Girlfriend</h5> 
+                    <p class="card-text" >Un anime de romance, escolar, muchas cosas pasan</p>
+                    <a href="https://www.crunchyroll.com/es/rent-a-girlfriend" class="btn btn-primary">Suu</a>
+                  </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+      <section> 
+        <div class="container mt-5 mb-5" > 
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-6">
+            <img src="Maps2.svg " alt="Imagen de una persona encima de un mapa" width="500" height="500" > 
+          </div> 
+          <div class="col-12 col-sm-6"> 
+            <h2> Encuentra tu tienda mas cercana</h2>
+            <p class="texto" id="ordena">Ordena tu manga a domicilio, ve anime en donde quieras, participa con las mejores comunidades de habla hispana</p>
+            <a href="#maps">Ir al mapa</a>
+          </div>
+        </div>
+          <form action=""> 
+                <label for="email">Correo Electrónico</label> 
+                <div class="d-flex">
+                  <div class="flex-fill mr-2">
+                    <input type="email" id="email" class="form-control"/>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="container mt-5 mb-5"> <!--Contendor de la tira de productos-->
+          <div class="product-stripe">
+            <div class="stripe-container"> 
+            <!--Tira de productos-->
+            <!--Producto 0-->
+              <div class="card" id="moments">
+                <img src="Venta1.jpg" class="card-img-top" alt="Toys viendo el infinito">
+                  <div class="card-body">
+                    <h5 class="card-title">Venta de LEGOS</h5> 
+                    <span class="badge bg-warning text-dark">$50</span>
+                  </div>
+              </div>
+
+              <!--Producto 1-->
+              <div class="card">
+                <img src="Venta5.jpg" class="card-img-top" alt="LEGO de toy chiquito">
+                  <div class="card-body">
+                    <h5 class="card-title">Star Wars LEGOS</h5> 
+                    <span class="badge bg-warning text-dark">$50</span>
+                  </div>
+              </div>
+
+              <!--Producto 2-->
+              <div class="card">
+                <img src="Venta3.jpg" class="card-img-top" alt="Bakugo TOY">
+                  <div class="card-body">
+                    <h5 class="card-title">Anime FigurArts</h5> 
+                    <span class="badge bg-warning text-dark">$50</span>
+                  </div>
+              </div>
+
+              <!--Productos 3 -->
+              <div class="card">
+                <img src="Venta4.jpg" class="card-img-top" alt="Portada de SNK">
+                  <div class="card-body">
+                    <h5 class="card-title">Musica J-POP k-POP</h5> 
+                    <span class="badge bg-warning text-dark">$59</span>
+                  </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </section> 
+      <section>
+        <div class="container mt-5 mb-5"> 
+          <h4>Best Moments of anime</h4>
+                <div class="videoClips"> 
+                  <div class="stripe-container"> 
+                    <div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/_Ijg14yF0Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/OVCAeVFEt1Y?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ie8RJR0_tnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  
+                    <div>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/FRn6xXXF-7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div> 
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/EjtYNhWHbuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </div>
+      </section> 
+      <section> 
+        <div class="container mt-5 mb-5" id="maps">
+          <h5>Aqui nos vemos:</h5>
+          <p>Anillo Perif. Blvd. Adolfo López Mateos 4690, Insurgentes Cuicuilco, Coyoacán, 04500 Ciudad de México, CDMX</p>
+          <div class="resposive-iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101333.62145760148!2d-99.21064019893274!3d19.28961688749436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49e866710727b140!2sEpicland%20Centro%20Comercial%20Perisur!5e0!3m2!1ses!2smx!4v1620269403776!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+    </body>
+</html>
